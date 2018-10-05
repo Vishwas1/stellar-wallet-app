@@ -27,6 +27,16 @@ Follow [this](https://www.digitalocean.com/community/tutorials/how-to-install-an
 
 `docker run --rm -it -p "8000:8000" --name stellar stellar/quickstart --testnet`
 
+**Get your node's url**
+- Get the container ids
+`docker ps -a`
+
+- Get the ip address of running container
+`docker inspect 6396f1acc6d2 | grep "IPAddress"`
+
+- Append 8000 port with ip : this is the port at which horizon is running
+`http://172.18.0.2:8000/`
+
 
 ### Create a Wallet app to explore stellar
 
