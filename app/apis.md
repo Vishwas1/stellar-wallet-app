@@ -14,6 +14,7 @@ app.post('/transactions', getHistory)
 
 ### New Account
 
+```
 Method : GET
 URL : http://localhost:4000/newAccount  
 Response : 
@@ -21,6 +22,7 @@ Response :
     "pk": "GBVLTVGDDO3CAEZQQEDBZCTHZKXZUT7LDIGGXD7W5R2YKOQLPFMV3WLK",
     "sk": "SBYHYPWNC5ZVWPH73VHBVWF2D4PDXV4466GLL2WQNZQKHQTJJSQPGZBM"
 }
+```
 
 ### All Accounts
 
